@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio page</title>
+</head>
+<body>
+    <h1 style="background-color: aqua;text-align: center;text-decoration: double;">Feedback Form</h1>
+    <form action="submit_form.html" method="GET">
+        <label>Name:
+            <input type="text" name="name" placeholder="Enter your name">
+        </label>
+        <br><br>
+    
+        <label>Email:
+            <input type="email" name="email" placeholder="Enter your email">
+        </label>
+        <br><br>
+    
+        <label>Phone:
+            <input type="tel" name="phone" placeholder="Enter your phone number">
+        </label>
+        <br><br>
+    
+        <label>Rating:
+            <input type="number" name="rating" placeholder="Rate us (1-5)" min="1" max="5" required>
+        </label>
+        <br><br>
+    
+        <label>Any Questions regarding product or service:
+            <br><br>
+            <textarea name="questions" rows="5" cols="40" placeholder="Enter your questions" required></textarea>
+        </label>
+        <br><br>
+    
+        <label>Additional comments:
+            <br>
+            <textarea name="comments" rows="5" cols="40" placeholder="Enter any additional comments"></textarea>
+        </label>
+        <br><br>
+    
+        <button type="submit">Submit</button>
+    </form>
+    
+
+</body>

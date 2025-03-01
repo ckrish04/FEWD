@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+}
+h1{
+    background-color: aqua;
+    text-decoration: underline;
+    padding: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+label{
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+input,textarea{
+    background-color: lightyellow;
+    font-size: medium;
+    font-style: italic;
+    flex: grow 5;;
+}

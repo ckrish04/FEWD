@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+    margin-top: auto;
+}
+h1{
+    background-color:aqua;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic; 
+}

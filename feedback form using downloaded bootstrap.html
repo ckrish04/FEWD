@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3 text-white" href="#">Feedback</a>
+        </div>
+    </nav>
+    <br><br>
+
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col">
+            <h3>Email</h3>
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email" required>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col">
+            <h3>Phone</h3>
+            <input type="text" class="form-control" placeholder="Phone" aria-label="phone" required>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="mb-3">
+        <label for="rating" class="form-label fw-bold">Rating</label>
+        <input type="number" class="form-control" id="rating" name="rating" placeholder="Rate us (1-5)" min="1" max="5" required>
+    </div>
+    <br><br>
+
+    <div class="mb-3">
+        <label for="questions" class="form-label fw-bold">Any Questions regarding product or service:</label>
+        <textarea class="form-control" id="questions" name="questions" rows="5" placeholder="Enter your question"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="comments" class="form-label fw-bold">Additional Comments:</label>
+        <textarea class="form-control" id="comments" name="comments" rows="5" placeholder="Enter any additional comments"></textarea>
+    </div>
+
+    <button type="button" class="btn btn-outline-info">Submit</button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
